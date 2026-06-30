@@ -1,0 +1,225 @@
+.referral-page{
+
+    max-width:1200px;
+
+    margin:100px auto;
+
+    padding:0 20px;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.referral-box{
+
+    width:100%;
+
+    max-width:760px;
+
+    background:linear-gradient(180deg,#1b2640,#172033);
+
+    border:1px solid rgba(123,97,255,.18);
+
+    border-radius:24px;
+
+    padding:60px 45px;
+
+    text-align:center;
+
+    transition:all .35s ease;
+
+    box-shadow:0 12px 40px rgba(0,0,0,.25);
+
+}
+
+.referral-box:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#7B61FF;
+
+    box-shadow:0 0 35px rgba(123,97,255,.22);
+
+}
+
+.referral-badge{
+
+    display:inline-block;
+
+    padding:10px 22px;
+
+    border-radius:40px;
+
+    border:1px solid #7B61FF;
+
+    background:rgba(123,97,255,.08);
+
+    color:#7B61FF;
+
+    font-weight:600;
+
+    margin-bottom:24px;
+
+}
+
+.referral-box h1{
+
+    font-size:56px;
+
+    color:#ffffff;
+
+    margin-bottom:20px;
+
+}
+
+.referral-box p{
+
+    color:#C4CDDC;
+
+    font-size:19px;
+
+    line-height:1.9;
+
+    margin-bottom:40px;
+
+}
+
+.referral-link{
+
+    display:flex;
+
+    gap:18px;
+
+    margin-bottom:45px;
+
+}
+
+.referral-link input{
+
+    flex:1;
+
+    padding:18px;
+
+    border-radius:14px;
+
+    border:1px solid #2E3954;
+
+    background:#202B45;
+
+    color:#ffffff;
+
+    font-size:16px;
+
+    outline:none;
+
+}
+
+.referral-link input:focus{
+
+    border-color:#7B61FF;
+
+}
+
+.referral-stats{
+
+    display:flex;
+
+    justify-content:space-evenly;
+
+    margin-top:10px;
+
+    gap:25px;
+
+}
+
+.referral-stats div{
+
+    flex:1;
+
+    background:#202B45;
+
+    border:1px solid rgba(123,97,255,.12);
+
+    border-radius:18px;
+
+    padding:28px;
+
+    transition:.3s;
+
+}
+
+.referral-stats div:hover{
+
+    transform:translateY(-6px);
+
+    border-color:#7B61FF;
+
+}
+
+.referral-stats h3{
+
+    color:#7B61FF;
+
+    font-size:46px;
+
+    margin-bottom:12px;
+
+    font-weight:700;
+
+}
+
+.referral-stats span{
+
+    color:#D2D8E7;
+
+    font-size:18px;
+
+}
+
+@media(max-width:768px){
+
+.referral-page{
+
+margin:80px auto;
+
+}
+
+.referral-box{
+
+padding:40px 25px;
+
+}
+
+.referral-box h1{
+
+font-size:42px;
+
+}
+
+.referral-box p{
+
+font-size:17px;
+
+}
+
+.referral-link{
+
+flex-direction:column;
+
+}
+
+.referral-stats{
+
+flex-direction:column;
+
+}
+
+.referral-stats h3{
+
+font-size:38px;
+
+}
+
+}

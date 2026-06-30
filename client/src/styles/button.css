@@ -1,0 +1,111 @@
+.primary-btn,
+.secondary-btn{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:16px 34px;
+
+    border:none;
+    outline:none;
+
+    border-radius:14px;
+
+    cursor:pointer;
+
+    font-size:17px;
+    font-weight:600;
+    letter-spacing:.3px;
+
+    transition:all .35s ease;
+
+    user-select:none;
+}
+
+/* Primary Button */
+
+.primary-btn{
+
+    color:#ffffff;
+
+    background:linear-gradient(135deg,#7B61FF,#5B3BFF);
+
+    box-shadow:
+    0 10px 30px rgba(123,97,255,.35);
+
+}
+
+.primary-btn:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+    0 18px 40px rgba(123,97,255,.45);
+
+}
+
+.primary-btn:active{
+
+    transform:scale(.97);
+
+}
+
+/* Secondary Button */
+
+.secondary-btn{
+
+    color:#ffffff;
+
+    background:rgba(255,255,255,.02);
+
+    border:2px solid #7B61FF;
+
+    backdrop-filter:blur(10px);
+
+}
+
+.secondary-btn:hover{
+
+    background:#7B61FF;
+
+    transform:translateY(-4px);
+
+    box-shadow:
+    0 15px 35px rgba(123,97,255,.35);
+
+}
+
+.secondary-btn:active{
+
+    transform:scale(.97);
+
+}
+
+/* Focus */
+
+.primary-btn:focus,
+.secondary-btn:focus{
+
+    outline:none;
+
+    box-shadow:
+    0 0 0 4px rgba(123,97,255,.25);
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.primary-btn,
+.secondary-btn{
+
+    width:100%;
+
+    padding:15px;
+
+    font-size:16px;
+
+}
+
+}
